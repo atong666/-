@@ -1,0 +1,215 @@
+/*字符类型*/
+@charset "utf-8";
+/*公共类*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: 0px;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+html,body{
+	color: #898989;
+	background: #FFF;
+	font-family: "Microsoft YaHei UI", "Microsoft YaHei UI Light", "微软雅黑", "宋体", Helvetica-Black-SemiBold, Tahoma, Arial, sans-serif;
+	font-size: 12px;
+}
+.container{
+	width: 1170px;
+	margin: 0px auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+/*我们的服务最外层大盒子*/
+.service-bigbox{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+/*我们的服务标题*/
+.service-title{
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 22px;
+	padding: 44px 0px;
+	text-align: center;
+	background-color: #F5F5F5;
+	color: #575757;
+}
+
+.service-content li{
+	background-color: #fff;
+	width: 220px;
+	list-style: none;
+	margin: 0px 7px;
+}
+.service-list{
+	background-color: #F5F5F5;
+	padding-bottom: 60px;
+}
+/*公司注册图标*/
+.service-list .logo-res{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: url(../img/icon-list.png) no-repeat;
+	background-position: -52px -27px;
+	margin-top: 30px;
+	margin-bottom: 16px;
+}
+/*财税服务图标*/
+.service-list .logo-tax{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: url(../img/icon-list.png) no-repeat;
+	background-position: -193px -27px;
+	margin-top: 30px;
+	margin-bottom: 16px;
+}
+/*专业审批图标*/
+.service-list .logo-Approval{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: url(../img/icon-list.png) no-repeat;
+	background-position: -334px -27px;
+	margin-top: 30px;
+	margin-bottom: 16px;
+}
+/*商标注册图标*/
+.service-list .logo-icon{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: url(../img/icon-list.png) no-repeat;
+	background-position: -486px -27px;
+	margin-top: 30px;
+	margin-bottom: 16px;
+}
+/*一般纳税人图标*/
+.service-list .logo-man{
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+	margin: 0 auto;
+	background: url(../img/icon-list.png) no-repeat;
+	background-position: -626px -27px;
+	margin-top: 30px;
+	margin-bottom: 16px;
+}
+
+/*服务名称*/
+.service-list .name{
+	font-size: 18px;
+	text-align: center;
+	color: black;
+	margin-bottom: 16px;
+}
+/*服务简介*/
+.service-list .des{
+	font-size: 12px;
+	color: #b0b0b0;
+	line-height: 12px;
+	text-align: center;
+	margin-bottom: 36px;
+}
+/*查看详情*/
+.service-list .more{
+	height: 30px;
+	width: 100px;
+	margin: 0px auto;
+	background-color: #fd5a66;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+}
+/*已有10000+企业申请*/
+.service-list .more-des{
+	margin: 0px auto;
+	margin-bottom: 38px;
+	font-size: 12px;
+	color: #b0b0b0;
+	line-height: 12px;
+	text-align: center;
+}
+/*中间的红色字体*/
+.service-list .text-red{
+	color: #FD5A66;
+}
+/*新闻资讯外层大盒子*/
+.news-bigbox{
+	padding-bottom: 56px;
+}
+/*新闻资讯标题*/
+.news-title{
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 22px;
+	padding: 44px 0px;
+	text-align: center;
+	color: #575757;
+}
+.news-list li{
+	margin: 0px 6px;
+	width: 278px;
+	border: 1px solid #eee;
+}
+/*图*/
+.news-list .photo{
+	margin-bottom: 18px;
+}
+/*简介*/
+.news-list .des{
+	font-size: 14px;
+	color: #575757;
+	margin-bottom: 32px;
+	line-height: 14px;
+	text-align: center;
+}
+.news-list .data-more{
+	margin-bottom: 21px;
+}
+/*MORE+*/
+.news-list .more{
+	width: 64px;
+	height: 15px;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: #B0B0B0;
+	border: 1px solid #c0bebe;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+/*data-icon*/
+ .news-list .data-icon{
+	height: 15px;
+	width: 15px;
+	margin-right: 2px;
+	margin-left: 14px;
+	background: url(../img/icon-list.png) no-repeat;
+	background-position: -374px -167px;
+	vertical-align: middle;
+}
+/*data*/
+.news-list .data{
+	font-size: 12px;
+	line-height: 17px;
+	color: #bbb;
+	vertical-align: middle;
+}
